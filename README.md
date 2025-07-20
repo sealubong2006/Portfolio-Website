@@ -1,2 +1,35 @@
-# Portfolio-Website
-A responsive personal portfolio website showcasing my web and mobile development projects, built with HTML, and CSS.
+### 🔹 **GitHub Repository Description:**
+
+> A responsive personal portfolio website showcasing my web and mobile development projects, built with HTML, CSS, and JavaScript.
+
+---
+
+### 📄 **README.md Content:**
+
+```markdown
+# Seal Udokang - Portfolio Website
+
+Welcome to my personal portfolio website! This project highlights who I am as a developer, my skills, and showcases projects I’ve built in web and mobile development.
+
+## 🚀 Features
+
+- Responsive design (mobile & desktop)
+- Smooth navigation
+- Project previews
+- Contact form
+- Skill progress bars
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (with media queries)
+
+## 📸 Live Preview
+
+[Visit My Portfolio](https://your-live-site-link.com)
+
+## 📬 Contact
+
+Feel free to reach out if you want to collaborate or just connect!
+
+> Built with passion and purpose ✝️
