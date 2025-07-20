@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seal Udokang - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {box-sizing: border-box}
+
+        .container {
+            width: 100%;
+            background-color: #ddd;
+        }
+
+        .html {width: 90%; background-color: #04AA6D;}
+        .css {width: 80%; background-color: #2196F3;}
+        .js {width: 25%; background-color: #380399;}
+        .python {width: 95%; background-color: #f44336;}
+    </style>
+</head>
+<body class="grid-container">
+    <div class="navbar">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a class="active" href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="flex-container header">
+        <header id="home" class="hero">
+            <img src="/assets/profile.png" alt="Seal Udokang's Profile Picture" class="profile-picture">
+            <div class="hero-text">
+                <h1>Hi, I'm Seal Udokang</h1>
+                <p>I'm a software developer with a passion for creating innovative solutions. Welcome to my portfolio!</p>
+                <a class="button" href="https://github.com/sealubong2006?tab=repositories" target="_blank">View My Work</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="flex-container about">
+        <section id="about" class="About">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p> Hi! I’m Seal, an aspiring software engineer with a strong passion for building practical and impactful tech solutions. 
+                I’m currently developing my skills in <strong>Python</strong>, as well as <strong>HTML</strong> and <strong>CSS</strong>, 
+                including experience with CSS frameworks to help create clean, responsive web interfaces.
+                </p>
+                <p>My goal is to grow into a versatile developer. I'm actively expanding my knowledge and plan to learn <strong>Java</strong>, 
+                dive into <strong>mobile application design</strong>, 
+                and explore the world of <strong>ethical hacking</strong> to better understand how to build secure and user-friendly systems.</p>
+                <p> I enjoy solving real-world problems with code and constantly seek opportunities to learn, 
+                build, and collaborate. Whether it's a personal project or part of a team, I’m excited about the journey ahead in tech.</p>
+            </div>    
+            <div class="about-skills">
+                <h2>Skills</h2>
+                <p>Here are some of the skills I have acquired:</p>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java(In-Progress)</li>
+                    <li>Mobile App Design(In-Progress)</li>
+                    <li>Ethical Hacking(In-Progress)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="flex-container projects">
+        <div class="project-text">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        </div>
+        <section id="projects" class="Projects">
+            <article class="project-card">
+                <h3>TinDog Project</h3>
+                <p>Tinder for dogs, My first fully customized website using only html and bootstrap</p>
+                <a class="button" href="https://sealubong2006.github.io/TinDog-Website-Project/">View</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Flashy - A French-English Flashcard App</h3>
+                <p>Flashy is a Python-Tkinter flashcard app for learning French.
+                It shows French words with English meanings
+                Known words are removed from the deck</p>
+                <a class="button" href="https://github.com/sealubong2006/flashy-flashcard-project.git">View</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Song Time Machine</h3>
+                <p>This project takes the Billboard Hot 100 songs from any date in the past or 
+                    present and creates a private Spotify playlist from it — automatically!</p>
+                <a class="button" href="https://github.com/sealubong2006/song-time-machine.git">View</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Tesla Stock Tracker & News Alert Bot</h3>
+                <p>A Python automation project that monitors TSLA stock using Alpha Vantage.
+                  If the price changes over 5%, it fetches recent news.
+                  A summary is then emailed to you automatically.
+                </p>
+                <a class="button" href="https://github.com/sealubong2006/tesla-stock-tracker.git">View</a>
+            </article>
+        </section>
+    </div>
+
+    <div class="flex-container resume">
+        <section id="resume" class="Resume">
+            <div class="resume-text">
+                <h2>Resume</h2>
+                <a class="button" href="/assets/resume.pdf">Download PDF</a>
+                <br>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skills html"></div>
+                </div>
+
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css"></div>
+                </div>
+
+                <p>Python</p>
+                <div class="container">
+                    <div class="skills python"></div>
+                </div>
+
+                <p>Java</p>
+                <div class="container">
+                    <div class="skills java"></div>
+                </div>
+
+                <p>Javascript</p>
+                <div class="container">
+                    <div class="skills js"></div>
+                </div>
+            </div>  
+        </section>
+    </div>
+
+    <div class="flex-container contact">
+        <section id="contact" class="Contact">
+        <div class="contact-text">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out!</p>
+            <form action="mailto:focusedworkhubg@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button class="button" type="submit">Send</button>
+        </form>
+        </div>
+        </section>
+    </div>
+
+    <div class="flex-container footer">
+        <footer>
+            <p>Connect with me on social media:</p>
+               <a class="icon-link" href="https://github.com/sealubong2006" target="_blank">
+                    <img src="/assets/github.svg" alt="github icon" class="icon">
+                </a>
+                <a class="icon-link" href="https://www.linkedin.com/in/sealudokang" target="_blank">
+                    <img src="/assets/linkedin.svg" alt="linkedin icon" class="icon">
+                </a>
+        <p>&copy; 2025 Seal Udokang. All rights reserved.</p>
+    </div>
+</body>
+</html>
