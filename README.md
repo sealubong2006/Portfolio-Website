@@ -6,7 +6,7 @@
 
 ### 📄 **README.md Content:**
 
-```markdown
+
 # Seal Udokang - Portfolio Website
 
 Welcome to my personal portfolio website! This project highlights who I am as a developer, my skills, and showcases projects I’ve built in web and mobile development.
