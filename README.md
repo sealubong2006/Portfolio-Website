@@ -23,6 +23,7 @@ Welcome to my personal portfolio website! This project highlights who I am as a 
 
 - HTML5
 - CSS3 (with media queries)
+- Javascript(typewriter animation and form validation)
 
 ## 📸 Live Preview
 
