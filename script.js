@@ -63,3 +63,10 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(section);
     });
 });
+
+// Auto updating footer year for coypyright
+document.addEventListener("DOMContentLoaded", function() {
+    const yearElement = document.querySelector(".footer-year");
+    const currentYear = new Date().getFullYear();
+    yearElement.textContent = currentYear;
+});
