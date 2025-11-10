@@ -6,7 +6,7 @@
  */
 
 document.addEventListener("DOMContentLoaded", function() {
-    const textElement = document.querySelector(".hero h1");
+    const textElement = document.getElementById("typewriter-text");
     const text = "Hello, I'm Seal Udokang.";
     var index = 0;
 
