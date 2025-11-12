@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Scoll based amination
+// Scroll based amination
 document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll("section");
     const observerOptions = {
@@ -70,3 +70,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentYear = new Date().getFullYear();
     yearElement.textContent = currentYear;
 });
+
+// Light/Dark mode toggle
+document.addEventListener("DOMContentLoaded", function() {
+    const toggleButton = document.getElementById("theme-toggle");
+    toggleButton.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+        if (document.body.classList.contains("dark-mode")) {
+            toggleButton.textContent = "Light Mode";
+        } else {
+            toggleButton.textContent = "Dark Mode";
+        }
+    });
+});
+

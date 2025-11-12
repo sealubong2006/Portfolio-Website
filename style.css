@@ -107,3 +107,47 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
+/* Light/Dark Mode */
+body.light-mode {
+    background: var(--white);
+    color: black; /* Text color for light mode */
+}
+
+body.dark-mode {
+    background: #1c2833; /* Darker background for dark mode */
+    color: white; /* Text color for dark mode */
+}
+
+body.dark-mode .navbar {
+    background: linear-gradient(135deg, var(--dark), var(--primary-color));
+}
+
+body.dark-mode .project-card {
+    background: #34495e;
+    border: 1px solid rgba(0,128,128,0.4);
+}
+
+body.dark-mode .contact-section,    
+body.dark-mode .footer {
+    background: #1c2833;
+}
+
+/* Adjust backgrounds for dark mode sections to ensure white text is readable */
+body.dark-mode .hero-section,
+body.dark-mode .section-padding {
+    background: #2c3e50;
+}
+body.dark-mode .btn-custom {
+    background: linear-gradient(45deg, var(--dark), var(--primary-color));
+}
+body.dark-mode .btn-custom:hover {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+}
+body.dark-mode .skill-bar {
+    background-color: #555;
+}
+body.dark-mode .skill-progress {
+    background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+/* End of Custom CSS Variables for Teal/Cyan Theme */
