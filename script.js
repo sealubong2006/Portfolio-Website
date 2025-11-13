@@ -77,9 +77,9 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleButton.addEventListener("click", function() {
         document.body.classList.toggle("dark-mode");
         if (document.body.classList.contains("dark-mode")) {
-            toggleButton.textContent = "Light Mode";
+            toggleButton.innerHTML = "☀️"; // Sun icon for light mode option
         } else {
-            toggleButton.textContent = "Dark Mode";
+            toggleButton.innerHTML = "🌙"; // Moon icon for dark mode option
         }
     });
 });
